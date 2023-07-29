@@ -1,0 +1,64 @@
+#difficulty1 h1, #difficulty1 h3 {
+    color: navy;
+    margin: 20px auto;
+}
+
+#difficulty1 #game_container{
+    box-shadow: navy 0 0 30px;
+    border: 5px solid navy;
+}
+
+#difficulty1 #cell0, #difficulty1 #cell1 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid navy;
+    padding: 4px;
+    background-color: #1c1cf0;
+    font-size: 20px;
+}
+  
+#difficulty1 #cell1 {
+    background-color: royalblue;
+}
+
+#difficulty1 #cell0.revealed {
+    background-color: lightblue;;
+}
+  
+#cell1.revealed {
+    background-color: white;
+}
+
+#difficulty1 #new_game_button {
+    margin: 5px 225px;
+    padding: 10px;
+    width: 6em;
+    height: 1.5em;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    border: 5px solid navy;
+    border-radius: 10px;
+    color: navy;
+}
+  
+#difficulty1 #new_game_button:hover {
+    font-weight: bold;
+    color: white;
+    background-color: navy;
+    box-shadow: navy 0 0 10px;
+}
+
+#difficulty1 #mine_count, #difficulty1 #moves_made, #difficulty1 #game_status, #difficulty1 #timer {
+    padding: 10px 20px;
+    margin: 10px 35px;
+    background-color:navy;
+    border-radius: 10px;
+}
+
+#difficulty1 #cell0.adj-M, #difficulty1 #cell1.adj-M {
+    background-color: red;
+}
+
+#difficulty1 #cell0.flagged, #difficulty1 #cell1.flagged {
+    background-color: navy;
+}

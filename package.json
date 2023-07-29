@@ -1,0 +1,22 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "Minesweeper game",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run -s lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakhtinayeva/HTML-CSS"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "lite-server": "^2.6.1"
+  }
+}
